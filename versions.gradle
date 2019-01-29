@@ -37,13 +37,6 @@ dagger.assisted_inject = "com.squareup.inject:assisted-inject-annotations-dagger
 dagger.assisted_inject_compiler = "com.squareup.inject:assisted-inject-processor-dagger2:${versions.assistedinject}"
 deps.dagger = dagger
 
-def room = [:]
-room.runtime =  "androidx.room:room-runtime:${versions.room}"
-room.compiler =  "androidx.room:room-compiler:${versions.room}"
-room.rx = "androidx.room:room-rxjava2:${versions.room}"
-room.testing = "androidx.room:room-testing:${versions.room}"
-androidx.room = room
-
 def retrofit = [:]
 retrofit.runtime = "com.squareup.retrofit2:retrofit:$versions.retrofit"
 retrofit.gson = "com.squareup.retrofit2:converter-gson:$versions.retrofit"
